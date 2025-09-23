@@ -11,10 +11,10 @@ v obou případech ti přihlašovadlo automaticky fakturu stáhne (na email jde 
 
 ### Automitacká kontrola plateb
 systém je napojen na api Fio banky, kde kontroluje každých 15 minut účet pro nový platby   \
-když dostane novou platbu tak
+když dostane novou platbu tak:
 - zkontroluje jestli VS sedí s nějakým, který vygeneroval (jestli ne nedělá nic)
-- zkontroluje jestli částka souhlasí s VS (když platíš za víc lidí je částka násobená) (když ne tak pošle email že částka nesouhlasí)
-- zkontroluje jestli už nějaký z uživatelů asociovaných s VS nebyl už zaplacen (ať už přes tenhle, nebo jiný VS) (když ne pošle o tom email)
+- zkontroluje jestli částka souhlasí s VS (když platíš za víc lidí je částka násobená) (když ne, pošle o tom chybový e-mail)
+- zkontroluje jestli už nějaký z uživatelů asociovaných s VS nebyl už zaplacen (ať už přes tenhle, nebo jiný VS) (když ano, pošle o tom chybový e-mail email)
 - Jestli všecho sedí, označí automaticky uživatele že má zaplaceno (a pošle o tom dotyčným uživatelům e-mail, ne na email na který byla vygenerovaná faktura (při generaci na IČO))
 
 oba chybové emaily chodí jen na emaily zadané v adminovi v sekci "Bankovní informace"
