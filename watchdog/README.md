@@ -28,9 +28,9 @@ pokud se uvolní v programu místo (někdo kdo byl PŘIHLÁŠEN se odhlásil/nav
 <img width="517" height="431" alt="image" src="https://github.com/user-attachments/assets/f094e519-1a52-473c-8887-928ffaf8a9bd" />
 
 HLÍDACÍ PES:   \
-nejvyšší priorita (1): program1   \
-nižší priorita (2): program2   \
-PŘIHLÁŠEN: program3
+nejvyšší priorita (1): kapacita 0   \
+nižší priorita (2): kapacita 0 #2   \
+PŘIHLÁŠEN: 2 program stejnej čas
 
 case 1: pokud se uvolní kapacita v program2 (a uživatel je 1. ve frontě na ten program - bude přihlášen) tak ho systém odhlásí z program3 a přihlásí na program2 (program1 zůstane v hlídacím psovi)   \
 case 2: pokud se uvolní kapacita v program1 (a uživatel je 1. ve frontě na ten program - bude přihlášen) tak ho systém odhlásí z program3 i program2 (odstraní progrma2 z hlídacího psa) a přihlásí na program1 -> uživatel bude na tom programu na který chtěl nejvíc

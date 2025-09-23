@@ -5,8 +5,8 @@ popisuji zde pouze funkce:
 ### [Hlídací pes](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/watchdog/README.md)
 Hlídací pes v přihlašovadle vás po uvolnění místa programu automaticky přihlásí. [Kompletní popis](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/watchdog/README.md)
 
-### [Platba]()
-Systém umí generovat faktury a pak i automaticky kontrolovat jejich zaplacení. [Kompletní popis]()
+### [Platba](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/payment/README.md)
+Systém umí generovat faktury a pak i automaticky kontrolovat jejich zaplacení. [Kompletní popis](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/payment/README.md)
 
 ### [Admin]()
 Jak spravovat RVVZtku v přihlašovadle, přidávat programy a podobné. [Kompletní popis]()
