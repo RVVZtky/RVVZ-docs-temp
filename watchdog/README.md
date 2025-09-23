@@ -35,4 +35,4 @@ PŘIHLÁŠEN: program3
 case 1: pokud se uvolní kapacita v program2 (a uživatel je 1. ve frontě na ten program - bude přihlášen) tak ho systém odhlásí z program3 a přihlásí na program2 (program1 zůstane v hlídacím psovi)   \
 case 2: pokud se uvolní kapacita v program1 (a uživatel je 1. ve frontě na ten program - bude přihlášen) tak ho systém odhlásí z program3 i program2 (odstraní progrma2 z hlídacího psa) a přihlásí na program1 -> uživatel bude na tom programu na který chtěl nejvíc
 
-**[Kompletní popis logiky](https://github.com/RVVZtky/RVVZ-docs-temp/edit/master/watchdog/WATCHDOG.md)** (více příkladů, generováno Claude Sonnet 3.7)
+**[Kompletní popis logiky](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/watchdog/WATCHDOG.md)** (více příkladů, generováno Claude Sonnet 3.7)
