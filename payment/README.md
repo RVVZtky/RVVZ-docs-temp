@@ -18,10 +18,3 @@ když dostane novou platbu tak:
 - Jestli všecho sedí, označí automaticky uživatele že má zaplaceno (a pošle o tom dotyčným uživatelům e-mail, ne na email na který byla vygenerovaná faktura (při generaci na IČO))
 
 oba chybové emaily chodí jen na emaily zadané v adminovi v sekci "Bankovní informace"
-
-Admin:
-(přidám ti admin práva až se registruješ)
-- v seznamu uživatelů píše všechny VS který jsou s uživatelem asociované
-- můžeš uživateli manuálně změnit stav zaplacení
-- můžeš upravovat cenu a údaje faktur (viz https://rvvz.pzka.top/events/1/admin/payment-info)
-- umožňuje stáhnout .zip buď všech vygenerovaných faktur, nebo jenom zaplacených faktur (+ v .zip je i csv s datama z těch faktur)

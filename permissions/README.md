@@ -1,6 +1,8 @@
 # Permise
 
-```
+Jaké permise dostává jaký uživatel:
+
+```ts
 export const groupPermissions: Record<groups, Permissions[]> = {
     global_admin: [ // Název role
         Permissions.program_create, // Název permisse
@@ -34,3 +36,5 @@ export const groupPermissions: Record<groups, Permissions[]> = {
         Permissions.sensitive_data_access
     ]
 };```
+
+Role lector je přidělována automaticky když lektor nějakého programu
