@@ -35,6 +35,7 @@ export const groupPermissions: Record<groups, Permissions[]> = {
     sensitive_data_viewer: [
         Permissions.sensitive_data_access
     ]
-};```
+};
+```
 
 Role lector je přidělována automaticky když lektor nějakého programu
