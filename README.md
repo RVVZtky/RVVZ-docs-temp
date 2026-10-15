@@ -13,4 +13,6 @@ Jak spravovat RVVZtku v přihlašovadle, přidávat programy a podobné. [Komple
 ### [Permise](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/permissions/README.md)
 Jaké permise dostává jaký uživatel. [Kompletní popis](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/permissions/README.md)
 
+### [Dokumentace otevřeného API](https://prihlasovadlo.rvvz.cz/api/docs/)
+
 Pokud něco nefunguje, nebo máš návrh na vylepšení/zmenu některé logiky, napiš kVítkovi [email](mailto:prochazka.vit@rvvz.cz), [discord](https://discordapp.com/users/518345140939784203), [messanger](https://m.me/61576042160328?hash=AbZnF0LLxwKzTJ1R&source=qr_link_share)
