@@ -29,7 +29,7 @@ a může:
 - {{ico}}
 
 Doporučený tvar:
-`SPD*1.0*ACC:CZ5020100000000000000000+FIOBCZPPXXX*AM:{{price}}*CC:CZK*MSG:Zpráva pro příjemce*X-VS:{{VS}}*RN:Jméno příjemce*`
+`SPD*1.0*ACC:CZ5020100000000000000000+FIOBCZPPXXX*AM:{{price}}*CC:CZK*MSG:Zpráva pro příjemce*X-VS:{{VS}}*RN:Jméno příjemce*`  \
 nebo s informacemi o faktuře X-INV (to by prý pak mělo jít použít pro automatické účtování v programech jako pohoda a money S3):
 `SPD*1.0*ACC:CZ0720100000000000000000+FIOBCZPPXXX*AM:{{price}}*CC:CZK*MSG:Zpráva pro příjemce*X-VS:{{VS}}*RN:Jméno příjemce*X-INV:SID%2A1.0%2AID:VFR{{VS}}%2ADD:{{date}}%2AMSG:Zpráva pro příjemce%2AINI:22743731%2AINR:{{ico}}%2ADUZP:20270110%2ADPPD:20270110%2ADT:{{pay_by}}%2ANTB:{{price}}%2AX-SW:RVVZPRIHLASOVADLO*`
 
