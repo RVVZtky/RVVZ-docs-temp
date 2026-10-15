@@ -9,13 +9,13 @@ _Prefix VS je nastavitelných v admin panelech, 202601 je zde použito jako uká
 
 v obou případech ti přihlašovadlo automaticky fakturu stáhne (na email jde jenom pro redundanci)   \
 
-### Automitacká kontrola plateb
+### Automatická kontrola plateb
 systém je napojen na api Fio banky, kde kontroluje každých 15 minut účet pro nový platby   \
 když dostane novou platbu tak:
 - zkontroluje jestli VS sedí s nějakým, který vygeneroval (jestli ne nedělá nic)
 - zkontroluje jestli částka souhlasí s VS (když platíš za víc lidí je částka násobená) (když ne, pošle o tom chybový e-mail)    \
 _aktuálně kontroluje částku, která je na faktuře - tedy částku která odpovídá ceně eventu v čase vygenerování faktury (věc, která se změní s možností nastavení individuálních cen)_
-- zkontroluje jestli už nějaký z uživatelů asociovaných s VS nebyl už zaplacen (ať už přes tenhle, nebo jiný VS) (když ano, pošle o tom chybový e-mail email)
-- Jestli všecho sedí, označí automaticky uživatele že má zaplaceno (a pošle o tom dotyčným uživatelům e-mail, ne na email na který byla vygenerovaná faktura (při generaci na IČO))
+- zkontroluje jestli už nějaký z uživatelů asociovaných s VS nebyl už zaplacen (ať už přes tenhle, nebo jiný VS) (když ano, pošle o tom chybový e-mail)
+- Jestli všecho sedí, označí automaticky uživatele, že má zaplaceno (a pošle o tom dotyčným uživatelům e-mail, ovšem ne na email na který byla vygenerovaná faktura (při generaci na IČO))
 
 oba chybové emaily chodí jen na emaily zadané v adminovi v sekci "Bankovní informace"
