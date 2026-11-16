@@ -1,4 +1,4 @@
-# Přidávání programů
+# Platební informace
 
 Umonuje upravovat:
 - Stažení vygenerovaných faktur, buď všech nebo jenom zaplacených (stáhne zip soubor který obsahuje faktury a csv soubor ketrý obsahuje data těchto faktur)
@@ -6,7 +6,7 @@ Umonuje upravovat:
 - měnit Fio api token - _následně je nutné restartovat backend_
 
 _Z těchto dat se následně generují faktury:_
-- Měnit cenu Eventu
+- Měnit cenu Eventu (při změně se invalidují všechny vygenerované a nezaplacené faktury, viz [Nastavení ceny](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/payment/README.md#nastaveni-ceny))
 - Měnit datum do kdy zaplatit
 - měnit prefix VS (za tento VS bude přidáno 4 místné číslo, viz [platba](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/payment/README.md))
 - Měnit obsah QR kódu (viz níže)

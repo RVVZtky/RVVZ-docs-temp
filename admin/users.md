@@ -5,6 +5,7 @@ zde je možné vidět uživatele přihlášení na Event a data o jejich přihl�
 - telefon
 - Organizace
 - Místnost (kde spí)
+- Individuální cena (viz [Nastavení ceny](https://github.com/RVVZtky/RVVZ-docs-temp/blob/master/payment/README.md#nastaveni-ceny))
 - Stav zaplacení (**kliknutím jde manuálně změnit**)
 - faktury asociované s uživatelem (a stav jejich zaplacení)
 - možnost "**ukrást identitu**" - toto vás přihlásí jako daný uživatel, a můžete provádět akce za něj
