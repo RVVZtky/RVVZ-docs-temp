@@ -10,8 +10,6 @@ zde je možné vidět uživatele přihlášení na Event a data o jejich přihl�
 - faktury asociované s uživatelem (a stav jejich zaplacení)
 - možnost "**ukrást identitu**" - toto vás přihlásí jako daný uživatel, a můžete provádět akce za něj
 
-_eventuelně půjde nastavit individuálním uživatelům jinou cenu, než je nastavená cena Eventu_
-
 **Tyto data jdou stáhnout jako csv soubor**   \
 **Emaily všechn uživatelů jdou zkopírovat tlačítkem** zkopírují se ve tvaru "name@domain.com;name@domain.cz"
 
